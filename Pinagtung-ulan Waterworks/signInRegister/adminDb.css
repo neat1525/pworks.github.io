@@ -1,0 +1,78 @@
+body {
+  font-family: Nunito, sans-serif;
+  background: aliceblue;
+  zoom: 90%;
+}
+
+.pageHeader {
+  height: 276.5px;
+  width: auto;
+  background: rgb(43, 205, 207);
+  background: linear-gradient(278deg, rgba(43, 205, 207, 1) 0%, #0099ff 100%);
+}
+
+.pageHeader img {
+  height: 60px;
+  width: 100px;
+  margin-top: 20px;
+}
+
+.drpdwn svg {
+  height: 25px;
+  width: 25px;
+  margin-right: -20px;
+  color: aliceblue;
+}
+
+.drpdwn {
+  text-align: center;
+}
+
+.headerAcInfo {
+  margin-top: 105px;
+  margin-left: 28px;
+}
+
+.headerAcInfo h1 {
+  color: aliceblue;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.headerAcInfo h6 {
+  color: aliceblue;
+  font-size: 1.1rem;
+  font-weight: 400;
+  opacity: 50%;
+  margin-bottom: 0;
+}
+
+.navbar {
+  width: auto;
+  padding-top: 4px;
+  padding-bottom: 5px;
+  color: aliceblue;
+  background: rgb(43, 205, 207);
+  background: linear-gradient(278deg, rgba(43, 205, 207, 1) 0%, #0099ff 100%);
+
+  -webkit-box-shadow: 0px 18px 16px -10px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 18px 16px -10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 18px 16px -10px rgba(0, 0, 0, 0.25);
+}
+
+#mainNav {
+  margin-left: 20px;
+  gap: 75px;
+}
+
+#headerSecretary,
+#headerTreasurer,
+#headerCashier {
+  color: rgba(96, 169, 255, 1);
+  margin-left: 25px;
+}
+
+iframe {
+  background-color: aliceblue;
+  margin-left: 13px;
+}

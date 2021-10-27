@@ -1,0 +1,129 @@
+body {
+  background: rgb(43, 205, 207);
+  background: linear-gradient(
+    278deg,
+    rgba(43, 205, 207, 1) 0%,
+    rgba(96, 169, 255, 1) 100%
+  );
+  font-family: Nunito, sans-serif;
+  zoom: 90%;
+}
+
+img {
+  height: 90px;
+  width: 370px;
+  margin-left: -26px;
+  margin-top: 9.8%;
+}
+
+.rowContainer {
+  border-radius: 20px;
+  font-size: 1.2em;
+}
+
+.signIns button {
+  background: rgb(43, 205, 207);
+  background: linear-gradient(
+    278deg,
+    rgba(43, 205, 207, 1) 0%,
+    rgba(96, 169, 255, 1) 100%
+  );
+  color: aliceblue;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#mainForm {
+  margin-top: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+#mainForm h2 {
+  color: aliceblue;
+  font-size: 3rem;
+  font-weight: 100;
+  margin-top: 14%;
+  padding-left: 25px;
+}
+
+#mainForm p {
+  text-align: justify;
+  width: 300px;
+  color: aliceblue;
+  opacity: 70%;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-left: 25px;
+}
+
+#mainForm2 {
+  background-color: aliceblue;
+  color: rgb(43, 205, 207);
+  color: linear-gradient(
+    278deg,
+    rgba(43, 205, 207, 1) 0%,
+    rgba(96, 169, 255, 1) 100%
+  );
+  font-size: 1.5rem;
+  font-weight: 400;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-top: 7%;
+  padding-bottom: 8%;
+}
+
+#mainForm2 p {
+  background-color: aliceblue;
+  color: rgb(43, 205, 207);
+  color: linear-gradient(
+    278deg,
+    rgba(43, 205, 207, 1) 0%,
+    rgba(96, 169, 255, 1) 100%
+  );
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+#inputEmail,
+#inputPassword {
+  border: 0px;
+  background-color: aliceblue;
+  border-bottom: 2px solid #9d9d9d;
+}
+
+#aRegister {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  margin-top: -25px;
+}
+
+@media (max-width: 991.5px) {
+  #mainForm2 {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  #mainForm h2 {
+    display: none;
+  }
+
+  #mainForm p {
+    display: none;
+  }
+
+  #mainForm img {
+    margin-top: 0%;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  #mainForm p {
+    width: 270px;
+  }
+}
